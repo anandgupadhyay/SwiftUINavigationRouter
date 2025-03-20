@@ -13,7 +13,7 @@ struct BollywoodView: View {
     
     var body: some View {
         VStack {
-            Button("Go to TollyWood") {
+            Button("Go to A") {
                 router.navigate(to: .hollywood)
             }
         }
@@ -25,7 +25,7 @@ struct HollywoodView: View {
     
     var body: some View {
         VStack {
-            Button("Go to Zoowies") {
+            Button("Go to B") {
                 router.navigateToRoot()
             }
         }

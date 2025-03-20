@@ -6,11 +6,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Tab("Musics", systemImage: "music.note.house.fill") {
+            Tab("C", systemImage: "music.note.house.fill") {
                 MusicView()
             }
             
-            Tab("Zoowies", systemImage: "movieclapper.fill") {
+            Tab("B", systemImage: "movieclapper.fill") {
                 MovieView()
             }
         }
@@ -40,11 +40,11 @@ struct MusicView: View {
     
     private var mainView: some View {
         VStack {
-            Button("Go to first screen") {
+            Button("Go to C") {
                 router.navigate(to: .first) /// IMP
             }
         }
-        .navigationTitle("Musics")
+        .navigationTitle("D")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -68,11 +68,11 @@ struct MovieView: View {
     
     private var mainView: some View {
         VStack {
-            Button("Go to Tollywood") {
+            Button("Go to A") {
                 router.navigate(to: .bollywood)
             }
         }
-        .navigationTitle("Zoowies")
+        .navigationTitle("B")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

@@ -43,7 +43,7 @@ enum MusicFlow: NavigationDestination {
     var title: String {
         switch self {
         case .first:
-            return "First Screen - Overview of Music"
+            return "C - Overview of Music"
         case .second:
             return "Second Screen - Explore Genres"
         case .third:
