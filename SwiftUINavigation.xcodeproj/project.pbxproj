@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		902C6C7B2D7BD5B100F3C0C3 /* GenericRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902C6C7B2D7BD5B100F3C0C3 /* SwiftUINavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		902C6C7C2D7BD5B100F3C0C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				902C6C7B2D7BD5B100F3C0C3 /* GenericRouter.app */,
+				902C6C7B2D7BD5B100F3C0C3 /* SwiftUINavigation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		902C6C7A2D7BD5B100F3C0C3 /* GenericRouter */ = {
+		902C6C7A2D7BD5B100F3C0C3 /* SwiftUINavigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 902C6C892D7BD5B200F3C0C3 /* Build configuration list for PBXNativeTarget "GenericRouter" */;
+			buildConfigurationList = 902C6C892D7BD5B200F3C0C3 /* Build configuration list for PBXNativeTarget "SwiftUINavigation" */;
 			buildPhases = (
 				902C6C772D7BD5B100F3C0C3 /* Sources */,
 				902C6C782D7BD5B100F3C0C3 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				902C6C7D2D7BD5B100F3C0C3 /* GenericRouter */,
 			);
-			name = GenericRouter;
+			name = SwiftUINavigation;
 			packageProductDependencies = (
 			);
 			productName = GenericRouter;
-			productReference = 902C6C7B2D7BD5B100F3C0C3 /* GenericRouter.app */;
+			productReference = 902C6C7B2D7BD5B100F3C0C3 /* SwiftUINavigation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 902C6C762D7BD5B100F3C0C3 /* Build configuration list for PBXProject "GenericRouter" */;
+			buildConfigurationList = 902C6C762D7BD5B100F3C0C3 /* Build configuration list for PBXProject "SwiftUINavigation" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				902C6C7A2D7BD5B100F3C0C3 /* GenericRouter */,
+				902C6C7A2D7BD5B100F3C0C3 /* SwiftUINavigation */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		902C6C762D7BD5B100F3C0C3 /* Build configuration list for PBXProject "GenericRouter" */ = {
+		902C6C762D7BD5B100F3C0C3 /* Build configuration list for PBXProject "SwiftUINavigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				902C6C872D7BD5B200F3C0C3 /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		902C6C892D7BD5B200F3C0C3 /* Build configuration list for PBXNativeTarget "GenericRouter" */ = {
+		902C6C892D7BD5B200F3C0C3 /* Build configuration list for PBXNativeTarget "SwiftUINavigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				902C6C8A2D7BD5B200F3C0C3 /* Debug */,
